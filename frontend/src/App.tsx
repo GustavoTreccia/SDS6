@@ -1,9 +1,11 @@
 import React from 'react';
+import NavBar from './components/NavBar';
 import logo from './logo.svg';
+
 
 function App() {
   return (
-    <h1>Bom dia</h1>
+    <NavBar/>
   );
 }
 
