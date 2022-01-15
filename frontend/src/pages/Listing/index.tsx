@@ -27,3 +27,11 @@ function Listing() {
 
 }
 export default Listing;
+
+/* FORMA ERRADA
+
+    axios.get(`${BASE_URL}`).then(response => {
+        console.log(response.data);
+    });
+
+*/
